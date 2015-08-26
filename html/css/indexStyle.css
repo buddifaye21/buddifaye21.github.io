@@ -1,0 +1,78 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+html{
+	background-image:url('../pictures/purple-wallpaper.jpg');
+}
+body{
+	background:#9277AC;
+	width:75%;
+	margin: 15px auto;
+	border-radius:15px;
+	box-shadow:5px 5px 10px 10px black;
+}
+section{
+	float:right;
+	width: 100%;
+	height:200px;
+	padding:20px;
+}
+#navbar{
+	padding-bottom:15px;
+}
+#navbar ul{
+	text-align:center;
+	list-style:none;
+	border-bottom:1px solid black;
+}
+#navbar li{
+	padding-left:60px;
+	font-size:large;
+	display:inline;
+	text-align:left;
+}
+#navbar a.current{
+	color:lavender;
+}
+a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:black;
+}
+img{
+	border:1px solid #;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+}
+#homeh1{
+	color:#200439;
+	text-align:center;
+	padding-left:250px;
+	padding-right:25px;
+}
+h1{
+	padding:20px
+}
+header{
+	padding:15px;
+	border-bottom: 2px black solid;
+}
+footer{
+	clear:both;
+	border-top: 2px black solid;
+	padding-left:20px;
+}
+footer, header {
+	display: block;
+}
+#pdfarea{
+	text-align:center;
+	padding-bottom:15px;
+}
+#pdf{
+	padding-left:125px;
+	
+	text-align:center;
+}
