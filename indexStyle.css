@@ -1,0 +1,49 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+html{
+	background-image:url('purple-wallpaper.jpg');
+}
+body{
+	background:#9277AC;
+	width:80%;
+	margin: 15px auto;
+	box-shadow:5px 5px 10px 10px;
+}
+section{
+	float:right;
+	width: 83%;
+	height:200px;
+	padding:0;
+	border-left: 2px black solid;
+}
+aside{
+	float:left;
+	width:16%;
+	padding:0;
+	height:200px;
+}
+h1{
+	color:#200439;
+	text-align:center;
+}
+@-webkit-keyframes mymove {
+    50% {color: blue;}
+}
+nav{
+	padding:20px;
+	text-align:center;
+	text-decoration:underline;
+	font-size:large;
+}
+header{
+	border-bottom: 2px black solid;
+}
+footer{
+	clear:both;
+	border-top: 2px black solid;
+}
+footer, header {
+	display: block;
+}
