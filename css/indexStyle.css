@@ -30,16 +30,26 @@ aside{
 	padding:0;
 	height:200px;
 }
+img{
+	padding-left:25px;
+	padding-right:25px;
+	border:1px solid #;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+}
 h1{
 	color:#200439;
 	text-align:center;
+	padding-left:25px;
+	padding-right:25px;
 }
 @-webkit-keyframes mymove {
     50% {color: blue;}
 }
 nav{
 	padding:20px;
-	text-align:center;
+	text-align:left;
 	text-decoration:underline;
 	font-size:large;
 }
